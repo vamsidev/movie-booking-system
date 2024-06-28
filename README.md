@@ -7,8 +7,6 @@ This project is a Spring Boot implementation of the backend APIs for a ticket bo
 * Movie Management -> Admin users can add, edit, and remove movie from the system.
 * Theater Management -> Admin users can add, allocate seats, edit, and remove Theaters from the system.
 * Ticket Booking -> Users can browse through the available movie, select the desired event, and book tickets for it.
-* Seat Selection -> Users can choose their preferred seats from the available options for a selected event.
-* Booking History -> Users can view their booking history and check the details of their past bookings.
 
 ## Technologies Used
 * Java 21
