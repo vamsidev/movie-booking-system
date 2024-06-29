@@ -62,8 +62,8 @@ public class TicketService {
 		Ticket ticket = new Ticket();
 		ticket.setTotalTicketsPrice(getPriceAndAssignSeats);
 		ticket.setBookedSeats(seats);
-		ticket.setUser(user);
-		ticket.setShow(show);
+		ticket.setUserId(user.getId());
+		ticket.setShowId(show.getShowId());
 
 		ticket = ticketRepository.save(ticket);
 

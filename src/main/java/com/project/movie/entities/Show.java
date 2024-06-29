@@ -21,7 +21,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Show {
 
     @Id
-    private ObjectId showId;
+    private String showId;
 
     private Date time;
 

@@ -24,7 +24,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Movie {
 
     @Id
-    private ObjectId id;
+    private String id;
 
     private String movieName;
 

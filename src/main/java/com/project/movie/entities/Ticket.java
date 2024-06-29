@@ -19,7 +19,7 @@ import java.sql.Date;
 public class Ticket {
 
 	@Id
-	private ObjectId ticketId;
+	private String ticketId;
 
 	private Integer totalTicketsPrice;
 
@@ -27,10 +27,8 @@ public class Ticket {
 
 	private Date bookedAt;
 
-	@DBRef
-	private Show show;
+	private String showId;
 
-	@DBRef
-	private User user;
+	private String userId;
 
 }
